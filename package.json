@@ -1,19 +1,20 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-shine",
   "version": "0.1.0",
-  "description": "",
+  "description": "Shine integrations for n8n",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "Shine"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://shine.markedspartner.no",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "KL",
+    "email": "noemail@markedspartner.no"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/Markedspartner/shine-workflows-nodes.git"
   },
   "engines": {
     "node": ">=18.10",
