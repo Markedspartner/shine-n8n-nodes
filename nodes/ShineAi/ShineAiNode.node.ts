@@ -13,6 +13,7 @@ export class ShineAiNode implements INodeType {
 		name: 'shineAiNode',
 		group: ['transform'],
 		version: 1,
+		subtitle: '={{ $parameter["operation"] + ": " + $parameter["resource"] }}',
 		description: 'Shine AI',
 		defaults: {
 			name: 'Shine AI',
@@ -33,16 +34,6 @@ export class ShineAiNode implements INodeType {
 			},
 		},
 		properties: [
-			// Node properties which the user gets displayed and
-			// can change on the node.
-			{
-				displayName: 'My String',
-				name: 'myString',
-				type: 'string',
-				default: '',
-				placeholder: 'Placeholder value',
-				description: 'The description text',
-			},
 			{
 				displayName: 'Resource',
 				name: 'resource',
